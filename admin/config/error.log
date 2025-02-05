@@ -1,0 +1,76 @@
+[05-Feb-2025 06:30:44 UTC] Activity Log Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'field list'
+[05-Feb-2025 06:30:58 UTC] Checking login attempts for email: admin@gmail.com
+[05-Feb-2025 06:30:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in C:\xampp\htdocs\alumn\admin\includes\Security.php:265
+Stack trace:
+#0 C:\xampp\htdocs\alumn\admin\login.php(35): Security::checkLoginAttempts('admin@gmail.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\includes\Security.php on line 265
+[05-Feb-2025 06:32:09 UTC] Checking login attempts for email: phini@gmail.coj
+[05-Feb-2025 06:32:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\alumn\admin\includes\Security.php:253
+Stack trace:
+#0 C:\xampp\htdocs\alumn\admin\login.php(35): Security::checkLoginAttempts('phini@gmail.coj')
+#1 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\includes\Security.php on line 253
+[05-Feb-2025 06:32:14 UTC] Checking login attempts for email: phini@gmail.coj
+[05-Feb-2025 06:32:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\alumn\admin\includes\Security.php:259
+Stack trace:
+#0 C:\xampp\htdocs\alumn\admin\login.php(35): Security::checkLoginAttempts('phini@gmail.coj')
+#1 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\includes\Security.php on line 259
+[05-Feb-2025 06:33:37 UTC] Checking login attempts for email: admin@gmail.com
+[05-Feb-2025 06:33:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\alumn\admin\includes\Security.php:272
+Stack trace:
+#0 C:\xampp\htdocs\alumn\admin\login.php(35): Security::checkLoginAttempts('admin@gmail.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\includes\Security.php on line 272
+[05-Feb-2025 06:34:27 UTC] Checking login attempts for email: admin@gmail.com
+[05-Feb-2025 06:34:27 UTC] Found 0 failed attempts for email: admin@gmail.com
+[05-Feb-2025 06:34:27 UTC] Login attempt for email: admin@gmail.com
+[05-Feb-2025 06:34:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in C:\xampp\htdocs\alumn\admin\controllers\AuthController.php:44
+Stack trace:
+#0 C:\xampp\htdocs\alumn\admin\login.php(37): AuthController->login('admin@gmail.com', 'phini@1234')
+#1 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\controllers\AuthController.php on line 44
+[05-Feb-2025 06:35:18 UTC] Checking login attempts for email: admin@gmail.com
+[05-Feb-2025 06:35:18 UTC] Found 0 failed attempts for email: admin@gmail.com
+[05-Feb-2025 06:35:18 UTC] Login attempt for email: admin@gmail.com
+[05-Feb-2025 06:35:18 UTC] Query results for email admin@gmail.com: No user found
+[05-Feb-2025 06:35:18 UTC] Login error in AuthController: Invalid email or password
+[05-Feb-2025 06:35:18 UTC] Recording login attempt for email: admin@gmail.com (Success: No)
+[05-Feb-2025 06:35:19 UTC] Login error: Invalid email or password
+[05-Feb-2025 06:36:13 UTC] Checking login attempts for email: phini@dartu.ac.tz
+[05-Feb-2025 06:36:13 UTC] Found 0 failed attempts for email: phini@dartu.ac.tz
+[05-Feb-2025 06:36:13 UTC] Login attempt for email: phini@dartu.ac.tz
+[05-Feb-2025 06:36:13 UTC] Query results for email phini@dartu.ac.tz: No user found
+[05-Feb-2025 06:36:13 UTC] Login error in AuthController: Invalid email or password
+[05-Feb-2025 06:36:13 UTC] Recording login attempt for email: phini@dartu.ac.tz (Success: No)
+[05-Feb-2025 06:36:13 UTC] Login error: Invalid email or password
+[05-Feb-2025 06:37:53 UTC] Checking login attempts for email: admin@example.com
+[05-Feb-2025 06:37:53 UTC] Found 0 failed attempts for email: admin@example.com
+[05-Feb-2025 06:37:53 UTC] Login attempt for email: admin@example.com
+[05-Feb-2025 06:37:53 UTC] Query results for email admin@example.com: No user found
+[05-Feb-2025 06:37:53 UTC] Login error in AuthController: Invalid email or password
+[05-Feb-2025 06:37:53 UTC] Recording login attempt for email: admin@example.com (Success: No)
+[05-Feb-2025 06:37:53 UTC] Login error: Invalid email or password
+[05-Feb-2025 06:38:01 UTC] Checking login attempts for email: phini@gmail.com
+[05-Feb-2025 06:38:01 UTC] Found 0 failed attempts for email: phini@gmail.com
+[05-Feb-2025 06:38:01 UTC] Login attempt for email: phini@gmail.com
+[05-Feb-2025 06:38:01 UTC] Query results for email phini@gmail.com: User found
+[05-Feb-2025 06:38:01 UTC] Successful login for email: phini@gmail.com
+[05-Feb-2025 06:38:01 UTC] Recording login attempt for email: phini@gmail.com (Success: Yes)
+[05-Feb-2025 06:43:28 UTC] PHP Warning:  require_once(includes/navbar.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\alumn\admin\kibana-maps.php on line 3
+[05-Feb-2025 06:43:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/navbar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\alumn\admin\kibana-maps.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\kibana-maps.php on line 3
+[05-Feb-2025 06:50:08 UTC] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\alumn\admin\kibana-maps.php on line 10
+[05-Feb-2025 06:50:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\alumn\admin\kibana-maps.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\kibana-maps.php on line 10
+[05-Feb-2025 06:51:30 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\alumn\admin\includes\Database.php on line 2
+[05-Feb-2025 06:51:31 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\alumn\admin\includes\Database.php on line 2
+[05-Feb-2025 07:10:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in C:\xampp\htdocs\alumn\admin\kibana-maps.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\alumn\admin\kibana-maps.php on line 12
